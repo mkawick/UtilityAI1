@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f50fceb2b515d244abb49e2de4e684e6
+timeCreated: 1532815079
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124481
+  packageName: KUBIKOS - RPG / RTS 20 Animated Cube Mini Units
+  packageVersion: 1.1
+  assetPath: Assets/KUBIKOS - RPG RTS Characters/Prefabs/Items/Bow.prefab
+  uploadId: 561684

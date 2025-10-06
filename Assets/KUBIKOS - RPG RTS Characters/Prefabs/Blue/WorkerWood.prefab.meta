@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f894074f17df1ab4d948f68267de9583
+timeCreated: 1532815464
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124481
+  packageName: KUBIKOS - RPG / RTS 20 Animated Cube Mini Units
+  packageVersion: 1.1
+  assetPath: Assets/KUBIKOS - RPG RTS Characters/Prefabs/Blue/WorkerWood.prefab
+  uploadId: 561684

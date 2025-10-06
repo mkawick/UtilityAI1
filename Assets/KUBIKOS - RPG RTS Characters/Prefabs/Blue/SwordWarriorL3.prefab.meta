@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 07fb8078a12acbe4488568230b169608
+timeCreated: 1532815446
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124481
+  packageName: KUBIKOS - RPG / RTS 20 Animated Cube Mini Units
+  packageVersion: 1.1
+  assetPath: Assets/KUBIKOS - RPG RTS Characters/Prefabs/Blue/SwordWarriorL3.prefab
+  uploadId: 561684

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 69d5f6c86208f2640812523597b07d9b
+timeCreated: 1532950383
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124481
+  packageName: KUBIKOS - RPG / RTS 20 Animated Cube Mini Units
+  packageVersion: 1.1
+  assetPath: Assets/KUBIKOS - RPG RTS Characters/Prefabs/Yellow/Spearman.prefab
+  uploadId: 561684

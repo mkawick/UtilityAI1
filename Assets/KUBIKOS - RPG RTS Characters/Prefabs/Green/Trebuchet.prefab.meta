@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a772bf836a3253f4eb0b7f353a2b6ded
+timeCreated: 1532949386
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124481
+  packageName: KUBIKOS - RPG / RTS 20 Animated Cube Mini Units
+  packageVersion: 1.1
+  assetPath: Assets/KUBIKOS - RPG RTS Characters/Prefabs/Green/Trebuchet.prefab
+  uploadId: 561684

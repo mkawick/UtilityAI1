@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 44caf1b370a38594c8598e9e8590ca80
+timeCreated: 1532815458
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124481
+  packageName: KUBIKOS - RPG / RTS 20 Animated Cube Mini Units
+  packageVersion: 1.1
+  assetPath: Assets/KUBIKOS - RPG RTS Characters/Prefabs/Blue/WorkerAxe.prefab
+  uploadId: 561684

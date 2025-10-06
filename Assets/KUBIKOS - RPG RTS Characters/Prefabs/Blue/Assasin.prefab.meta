@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1cc988ac736c8514588f013f2f815804
+timeCreated: 1532815413
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124481
+  packageName: KUBIKOS - RPG / RTS 20 Animated Cube Mini Units
+  packageVersion: 1.1
+  assetPath: Assets/KUBIKOS - RPG RTS Characters/Prefabs/Blue/Assasin.prefab
+  uploadId: 561684

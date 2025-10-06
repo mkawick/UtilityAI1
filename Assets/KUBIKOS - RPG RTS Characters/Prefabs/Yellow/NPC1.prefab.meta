@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e66fedeacca20804ab3321fe5a517cfc
+timeCreated: 1532950375
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124481
+  packageName: KUBIKOS - RPG / RTS 20 Animated Cube Mini Units
+  packageVersion: 1.1
+  assetPath: Assets/KUBIKOS - RPG RTS Characters/Prefabs/Yellow/NPC1.prefab
+  uploadId: 561684

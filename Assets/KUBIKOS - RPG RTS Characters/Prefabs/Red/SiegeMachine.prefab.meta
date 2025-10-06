@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 89d117678911dd64aacb1706c8b5ec32
+timeCreated: 1532948796
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 124481
+  packageName: KUBIKOS - RPG / RTS 20 Animated Cube Mini Units
+  packageVersion: 1.1
+  assetPath: Assets/KUBIKOS - RPG RTS Characters/Prefabs/Red/SiegeMachine.prefab
+  uploadId: 561684
