@@ -4,7 +4,8 @@ using UnityEngine;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json; // You can install this via NuGet or Unity Package Manager
+using Newtonsoft.Json;
+using System.IO; // You can install this via NuGet or Unity Package Manager
 
 public class ChatGPTClient : MonoBehaviour
 {
@@ -12,6 +13,23 @@ public class ChatGPTClient : MonoBehaviour
 
     public TMPro.TMP_Text textInput;
     public TMPro.TMP_Text textOutput;
+    [SerializeField] private string apiKey;
+
+    private void Awake()
+    {
+        ReadString();
+    }
+
+    public void ReadString()
+    {
+        
+        string path = Application.dataPath + "/Data/ChatKey.bmp";
+        //Read the text from directly from the test.txt file
+        StreamReader reader = new StreamReader(path);
+        apiKey = reader.ReadToEnd();
+        reader.Close();
+        Debug.Log(apiKey);
+    }
 
     public void Send()
     {
@@ -34,7 +52,6 @@ public class ChatGPTClient : MonoBehaviour
 
     // ?? DO NOT hardcode your key in production!
     // Use environment variables, secure storage, or Unity's encrypted player prefs.
-    [SerializeField] private string apiKey = "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";
 
     public async Task<string> SendChatMessage(string message)
     {

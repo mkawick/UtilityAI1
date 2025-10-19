@@ -9,6 +9,7 @@ namespace MeticulousCraft.Core
     {
         private NavMeshAgent agent;
         public Transform destination;
+        public float stopRadius;
 
         // Start is called before the first frame update
         void Start()

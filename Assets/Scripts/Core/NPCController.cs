@@ -22,6 +22,7 @@ namespace MeticulousCraft.Core
         public Context context;        
 
         public State currentState { get; set; }
+        public Collider finder;
 
         // Start is called before the first frame update
         void Start()
@@ -45,7 +46,7 @@ namespace MeticulousCraft.Core
             {
                 aiBrain.DecideBestAction();
 
-                if (Vector3.Distance(aiBrain.bestAction.RequiredDestination.position, this.transform.position) < 2f)
+                if (Vector3.Distance(aiBrain.bestAction.RequiredDestination.position, this.transform.position) < (2f + mover.stopRadius))
                 {
                     currentState = State.execute;
                 }
