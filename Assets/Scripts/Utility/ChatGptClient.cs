@@ -5,7 +5,9 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using System.IO; // You can install this via NuGet or Unity Package Manager
+using System.IO;
+using System.Linq;
+using System; // You can install this via NuGet or Unity Package Manager
 
 public class ChatGPTClient : MonoBehaviour
 {
@@ -28,8 +30,16 @@ public class ChatGPTClient : MonoBehaviour
         StreamReader reader = new StreamReader(path);
         apiKey = reader.ReadToEnd();
         apiKey = apiKey.Replace("mykey:", "");
+        apiKey = Reverse(apiKey);
         reader.Close();
         Debug.Log(apiKey);
+    }
+
+    public static string Reverse(string s)
+    {
+        char[] charArray = s.ToCharArray();
+        Array.Reverse(charArray);
+        return new string(charArray);
     }
 
     public void Send()
