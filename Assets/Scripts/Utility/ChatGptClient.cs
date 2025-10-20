@@ -29,7 +29,7 @@ public class ChatGPTClient : MonoBehaviour
         //Read the text from directly from the test.txt file
         StreamReader reader = new StreamReader(path);
         apiKey = reader.ReadToEnd();
-        apiKey = apiKey.Replace("mykey:", "");
+        apiKey = apiKey.Replace("BMkey:", "");
         apiKey = Reverse(apiKey);
         reader.Close();
         Debug.Log(apiKey);
